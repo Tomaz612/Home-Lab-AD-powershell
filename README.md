@@ -84,10 +84,13 @@ The infrastructure was designed not only to deploy a domain environment, but als
   ![AD Users & Computers - Admin](images/admin-account.png)
 - Grant administrative privileges to the account:
   - Right-click in the User -> **Properties** -> **Member of** -> **Add**
+  
   ![Add the user to the Domain Admins group](images/add_to_domain_admins.png)
   
   - Click Apply
+  
   ![User added to the Domain Admins group](images/added_to_domain_admins.png)
+  
 - Log in using the newly created admin account.
 
 ---

@@ -22,10 +22,10 @@ The infrastructure was designed not only to deploy a domain environment, but als
 ## Objective
 
 - Simulate a real corporate AD environment.
-- Deploy and configure AD DS, DHCP, DNS, and NAT/RAS services
+- Deploy and configure AD DS, DHCP, DNS, and NAT/RRAS services
 - Automatically create 1,000 domain users using PowerShell scripting
 - Configure and validate domain-joined Windows 10 clients
-- Test authentication, DNS resolution, and network connectivity
+- Validate authentication, DNS resolution, and network connectivity
 - Document the full infrastructure step by step
 
 ---
@@ -39,7 +39,7 @@ The infrastructure was designed not only to deploy a domain environment, but als
     - IP: 172.16.0.1
     - Subnet: 255.255.255.0
     - DNS: 127.0.0.1
-- **Installed Services**: AD DS, DHCP, NAT/RAS
+- **Installed Services**: AD DS, DHCP, NAT/RRAS
 - **DHCP Scope Configuration**:
   - IP Range: 172.16.0.100 – 172.16.0.200
   - Subnet Mask: 255.255.255.0

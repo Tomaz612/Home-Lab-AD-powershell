@@ -81,7 +81,9 @@ The infrastructure was designed not only to deploy a domain environment, but als
 - Go to **Active Directory Users and Computers**:
   - Create an Organizational Unit (OU) named _ADMINS
   - Create a new user account inside the OU:
+  
   ![AD Users & Computers - Admin](images/admin-account.png)
+  
 - Grant administrative privileges to the account:
   - Right-click in the User -> **Properties** -> **Member of** -> **Add**
   
